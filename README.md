@@ -21,3 +21,4 @@ Using Exim with support for `Event` and `sqlite` lookup (check `exim -bV`)
 
  * 'Internal' delivery failures are counted as failures too, if that's undesirable edit `event_action` appropriately
  * Account is disabled not on exceeding limits but on next send
+ * Might behave incorrectly due to lookup caching 😢
